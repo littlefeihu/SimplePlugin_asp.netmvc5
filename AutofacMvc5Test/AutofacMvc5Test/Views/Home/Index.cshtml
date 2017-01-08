@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@inherits AutofacMvc5Test.CustomViewPage
+
+<h2>Index</h2>
+@Html.Raw(Logger.Write("property injection"));
+
